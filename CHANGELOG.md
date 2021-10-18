@@ -1,6 +1,7 @@
 # Changelog
 
 ## master (unreleased)
+[#817](https://github.com/toptal/chewy/pull/817): Show warning message during rake chewy:reset or chewy:upgrade if journaling is disabled. ([@konalegi][])
 
 ### New Features
 
@@ -10,6 +11,7 @@
 ### Changes
 
 ### Bugs Fixed
+  * [#816](https://github.com/toptal/chewy/pull/816): Move query [`preference`](https://www.elastic.co/guide/en/elasticsearch/reference/7.x/search-search.html#search-preference) from body to query parameters. ([@afg419][])
 
 ## 7.2.2 (2021-05-24)
 
@@ -624,6 +626,7 @@
 [@aglushkov]: https://github.com/aglushkov
 [@AlexVPopov]: https://github.com/AlexVPopov
 [@AndreySavelyev]: https://github.com/AndreySavelyev
+[@afg419]: https://github.com/afg419
 [@arion]: https://github.com/arion
 [@arturtr]: https://github.com/arturtr
 [@averell23]: https://github.com/averell23
